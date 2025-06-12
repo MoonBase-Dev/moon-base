@@ -1,5 +1,5 @@
-![moon-base logo](https://github.com/1WIR3/Moon-Base/blob/main/moon-base-repo-rm.png) 
-```Moon Base is a visual editor designed to help you create, customize, and manage your [Starship](https://starship.rs/) prompt configuration files (`starship.toml`) with ease. It provides a user-friendly interface to tweak various settings, modules, and palettes, offering a live preview of both your prompt and the generated TOML output.```
+![moon-base logo](https://github.com/MoonBase-Dev/moon-base/blob/main/site_res/mb40.png) 
+Moon Base is a visual editor designed to help you create, customize, and manage your [Starship](https://starship.rs/) prompt configuration files (`starship.toml`) with ease. It provides a user-friendly interface to tweak various settings, modules, and palettes, offering a live preview of both your prompt and the generated TOML output.
 
 Moon Base is a visual editor designed to help you create, customize, and manage your [Starship](https://starship.rs/) prompt configuration files (`starship.toml`) with ease. It provides a user-friendly interface to tweak various settings, modules, and palettes, offering a live preview of both your prompt and the generated TOML output.
 
@@ -102,8 +102,8 @@ Moon Base is designed to be intuitive. Here's a general workflow:
 This project is an evolving tool. If you have suggestions, find bugs, or want to contribute, please check the project's repository (if available) for contribution guidelines or to open an issue.
 
 ## 📄 License
-
-(Consider adding a license, e.g., MIT License)
+GPL v3
+availavle @ [License](https://github.com/MoonBase-Dev/moon-base/blob/main/MoonBase/LICENSE).
 
 ---
 
