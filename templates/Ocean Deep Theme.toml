@@ -1,0 +1,21 @@
+format = """
+🌊 [$username](bold cyan)[@](bold blue)[$hostname](bold navy) 🐋
+🐠 [$directory](bold aqua) $git_branch$git_status
+🦑 $nodejs$python$rust$docker_context
+🔱 $character"""
+
+[character]
+success_symbol = "[🌊](bold cyan)"
+error_symbol = "[⚡](bold red)"
+
+[git_branch]
+format = "[🌿 $branch]($style) "
+style = "bold green"
+
+[git_status]
+format = '([🌊 $all_status]($style) )'
+style = "bold blue"
+
+[docker_context]
+format = "[🐳 $context]($style) "
+style = "bold cyan"
