@@ -1,0 +1,22 @@
+[c]
+symbol = "🔩 "
+style = "bold red"
+detect_extensions = ["c", "h"]
+
+[memory_usage]
+disabled = false
+symbol = "⚙️ "
+style = "bold yellow"
+
+[cmd_duration]
+min_time = 50
+style = "bold orange"
+show_milliseconds = true
+
+[git_branch]
+symbol = "🔗 "
+style = "bold white"
+
+[directory]
+style = "bold white"
+truncation_length = 4
