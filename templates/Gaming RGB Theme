@@ -1,0 +1,33 @@
+tomlformat = """
+╭─ 🎮 [$username](bold red)[@](bold white)[$hostname](bold blue) 🎯
+├─ 📁 [$directory](bold magenta) $git_branch$git_status
+├─ 🔧 $nodejs$python$rust$go$java$docker_context
+╰─ 💫 $character"""
+
+[character]
+success_symbol = "[⚡](bold rainbow)"
+error_symbol = "[💀](bold red)"
+
+[git_branch]
+format = "[🌿 $branch]($style) "
+style = "bold green"
+
+[git_status]
+format = '([🔥 $all_status$ahead_behind]($style) )'
+style = "bold yellow"
+
+[nodejs]
+format = "[⚡ Node $version]($style) "
+style = "bold green"
+
+[python]
+format = '[🐍 Python $version( \($virtualenv\))]($style) '
+style = "bold blue"
+
+[rust]
+format = "[🦀 Rust $version]($style) "
+style = "bold orange"
+
+[docker_context]
+format = "[🐋 $context]($style) "
+style = "bold cyan"
