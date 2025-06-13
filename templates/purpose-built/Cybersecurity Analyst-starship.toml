@@ -1,0 +1,38 @@
+[username]
+style_user = "bold red"
+style_root = "bold red"
+show_always = true
+prefix = "🛡️ "
+
+[hostname]
+ssh_only = false
+style = "bold red"
+
+[directory]
+style = "bold yellow"
+truncation_length = 3
+
+[custom.security]
+command = "echo 'SecOps'"
+symbol = "🔒 "
+style = "bold red"
+
+[custom.threats]
+command = "echo 'Monitoring...'"
+symbol = "👁️ "
+style = "bold yellow"
+
+[git_branch]
+symbol = "🔐 "
+style = "bold cyan"
+
+[status]
+symbol = "🚨"
+success_symbol = "🔒"
+disabled = false
+style = "bold red"
+
+[time]
+disabled = false
+style = "bold red"
+time_format = "%H:%M:%S UTC"
