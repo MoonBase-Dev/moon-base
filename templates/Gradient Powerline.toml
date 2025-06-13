@@ -1,0 +1,45 @@
+format = "$username$hostname$directory$git_branch$git_status$docker_context$kubernetes$aws$character"
+
+[username]
+show_always = true
+style_user = "bg:#667eea fg:#ffffff"
+style_root = "bg:#f093fb fg:#000000"
+format = "[ ﴣ $user ]($style)"
+
+[hostname]
+ssh_only = false
+style = "bg:#764ba2 fg:#ffffff"
+format = "[ 﫷 $hostname ]($style)"
+
+[directory]
+style = "bg:#f093fb fg:#000000"
+format = "[  $path ]($style)"
+truncation_length = 4
+
+[git_branch]
+symbol = " "
+style = "bg:#4facfe fg:#000000"
+format = "[ $symbol$branch ]($style)"
+
+[git_status]
+style = "bg:#00f2fe fg:#000000"
+format = "[ 練 $all_status ]($style)"
+
+[docker_context]
+symbol = " "
+style = "bg:#43e97b fg:#000000"
+format = "[ $symbol$context ]($style)"
+
+[kubernetes]
+symbol = " "
+style = "bg:#38f9d7 fg:#000000"
+format = '[ $symbol$context ]($style)'
+
+[aws]
+symbol = " "
+style = "bg:#ffecd2 fg:#000000"
+format = '[ $symbol$profile ]($style)'
+
+[character]
+success_symbol = "[](bold #43e97b)"
+error_symbol = "[](bold #ff6b6b)"
