@@ -1,0 +1,21 @@
+format = """
+🌋 [$username](bold red)[@](bold orange)[$hostname](bold yellow) 🔥
+💎 [$directory](bold red) $git_branch$git_status
+⚡ $nodejs$python$rust$cmd_duration
+🌋 $character"""
+
+[character]
+success_symbol = "[🔥](bold orange)"
+error_symbol = "[💀](bold red)"
+
+[git_branch]
+format = "[🌿 $branch]($style) "
+style = "bold green"
+
+[git_status]
+format = '([⚡ $all_status]($style) )'
+style = "bold red"
+
+[cmd_duration]
+format = "[⏰ $duration]($style) "
+style = "bold yellow"
