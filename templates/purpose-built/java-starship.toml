@@ -1,0 +1,23 @@
+[java]
+symbol = "☕ "
+style = "bold red"
+
+[gradle]
+symbol = "🐘 "
+style = "bold green"
+
+[maven]
+symbol = "📋 "
+style = "bold blue"
+
+[spring]
+symbol = "🍃 "
+style = "bold green"
+
+[directory]
+style = "bold yellow"
+truncation_length = 4
+
+[git_branch]
+symbol = "🌳 "
+style = "bold green"
