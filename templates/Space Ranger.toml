@@ -1,0 +1,6 @@
+format = """[🚀 $all]($style)"""
+style = "bold blue"
+[aws]
+disabled = true
+[kubernetes]
+disabled = true
