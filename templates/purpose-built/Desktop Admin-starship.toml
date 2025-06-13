@@ -1,0 +1,34 @@
+[username]
+style_user = "bold blue"
+show_always = true
+prefix = "🖥️ "
+
+[hostname]
+ssh_only = false
+style = "bold green"
+
+[directory]
+style = "bold cyan"
+truncation_length = 2
+
+[custom.desktop]
+command = "echo 'Desktop Management'"
+symbol = "💻 "
+style = "bold blue"
+
+[custom.users]
+command = "who | wc -l"
+when = "command -v who"
+symbol = "👥 "
+style = "bold green"
+
+[memory_usage]
+disabled = false
+symbol = "🧠 "
+style = "bold yellow"
+
+[battery]
+disabled = false
+full_symbol = "🔋"
+charging_symbol = "⚡"
+discharging_symbol = "🪫"
