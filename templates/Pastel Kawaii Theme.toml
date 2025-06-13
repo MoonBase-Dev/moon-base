@@ -1,0 +1,33 @@
+tomlformat = """
+╭─ 🌸 [$username](pink)[@](white)[$hostname](lavender) 🌙
+├─ 📂 [$directory](sky) $git_branch$git_status
+├─ 🎀 $package$nodejs$python$rust
+╰─ ✨ $character"""
+
+[character]
+success_symbol = "[🌟](bold yellow)"
+error_symbol = "[💔](bold red)"
+
+[git_branch]
+format = "[🌺 $branch]($style) "
+style = "bold pink"
+
+[git_status]
+format = '([💫 $all_status]($style) )'
+style = "bold purple"
+
+[package]
+format = "[📦 $version]($style) "
+style = "bold cyan"
+
+[nodejs]
+format = "[🍃 $version]($style) "
+style = "bold green"
+
+[python]
+format = '[🐾 $version( \($virtualenv\))]($style) '
+style = "bold blue"
+
+[rust]
+format = "[🦋 $version]($style) "
+style = "bold orange"
