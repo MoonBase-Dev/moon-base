@@ -1,0 +1,25 @@
+format = """
+☁️ [$username](bold white)[@](bold gray)[$hostname](bold light_blue) 🌤️
+🌈 [$directory](bold cyan) $git_branch$git_status
+⛅ $aws$gcloud$docker_context$kubernetes
+🌦️ $character"""
+
+[character]
+success_symbol = "[☀️](bold yellow)"
+error_symbol = "[⛈️](bold red)"
+
+[git_branch]
+format = "[🌿 $branch]($style) "
+style = "bold green"
+
+[git_status]
+format = '([🌈 $all_status]($style) )'
+style = "bold blue"
+
+[aws]
+format = '[☁️ $profile( \($region\))]($style) '
+style = "bold orange"
+
+[gcloud]
+format = '[☁️ $project( \($region\))]($style) '
+style = "bold blue"
