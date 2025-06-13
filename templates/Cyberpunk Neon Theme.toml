@@ -1,0 +1,52 @@
+tomlformat = """
+[╭─user───❯](bold blue) $username
+[┣─system─❯](bold blue) $hostname
+[┣─project❯](bold blue) $directory$rust$go$nodejs$python$cmd_duration$git_branch$git_status
+[╰─cmd────❯](bold blue) $character"""
+
+[username]
+format = "[$user]($style) "
+style_user = "bold neon_pink"
+style_root = "bold red"
+
+[hostname]
+ssh_only = false
+format = "[$hostname]($style) "
+style = "bold cyan"
+
+[directory]
+format = "[$path]($style)[$read_only]($read_only_style) "
+style = "bold purple"
+read_only = "🔒"
+
+[character]
+success_symbol = "[⚡](bold green)"
+error_symbol = "[⚡](bold red)"
+
+[git_branch]
+format = "[$symbol$branch]($style) "
+symbol = "🌸 "
+style = "bold magenta"
+
+[git_status]
+format = '([\[$all_status$ahead_behind\]]($style) )'
+style = "bold red"
+
+[cmd_duration]
+format = "[⏱ $duration]($style) "
+style = "bold yellow"
+
+[rust]
+format = "[$symbol($version )]($style)"
+symbol = "🦀 "
+style = "bold orange"
+
+[nodejs]
+format = "[$symbol($version )]($style)"
+symbol = "⬢ "
+style = "bold green"
+
+[python]
+format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
+symbol = "🐍 "
+style = "bold blue"
