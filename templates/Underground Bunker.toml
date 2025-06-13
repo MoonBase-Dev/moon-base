@@ -1,0 +1,20 @@
+format = """
+[▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓](bold gray)
+[▓](bold gray) 🔒 USER: [$username](bold green) [▓](bold gray)
+[▓](bold gray) 💻 HOST: [$hostname](bold yellow) [▓](bold gray)
+[▓](bold gray) 📁 PATH: [$directory](bold cyan) [▓](bold gray)
+[▓](bold gray) 🌿 $git_branch$git_status [▓](bold gray)
+[▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓](bold gray)
+$character"""
+
+[character]
+success_symbol = "[◆](bold green)"
+error_symbol = "[◇](bold red)"
+
+[git_branch]
+format = "BRANCH: [$branch]($style) "
+style = "bold purple"
+
+[git_status]
+format = 'STATUS: [$all_status]($style) '
+style = "bold red"
