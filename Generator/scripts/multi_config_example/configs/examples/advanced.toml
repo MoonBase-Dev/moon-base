@@ -1,0 +1,75 @@
+# Advanced example with many modules
+format = """
+[$username]($username.style)\
+[@$hostname]($hostname.style)\
+[($directory)]($directory.style)\
+[$git_branch$git_status]($git_branch.style)\
+[$nodejs$python$rust$golang]($nodejs.style)\
+[$cmd_duration]($cmd_duration.style)\
+[$battery]($battery.style)\
+$character
+"""
+
+[username]
+style = "blue bold"
+show_always = true
+
+[hostname]
+style = "green bold"
+ssh_only = false
+
+[directory]
+style = "cyan"
+truncation_length = 5
+truncate_to_repo = true
+
+[git_branch]
+style = "purple"
+symbol = " "
+
+[git_status]
+style = "red"
+ahead = "↑${count}"
+behind = "↓${count}"
+diverged = "↕${ahead_count}${behind_count}"
+conflicted = "=${count}"
+deleted = "✘${count}"
+renamed = "»${count}"
+modified = "!${count}"
+staged = "+${count}"
+untracked = "?${count}"
+
+[nodejs]
+style = "green"
+symbol = " "
+
+[python]
+style = "yellow"
+symbol = " "
+
+[rust]
+style = "red"
+symbol = " "
+
+[golang]
+style = "cyan" 
+symbol = " "
+
+[cmd_duration]
+style = "yellow"
+min_time = 2000
+format = "[⏱ $duration]($style)"
+
+[battery]
+style = "red"
+full_symbol = ""
+charging_symbol = ""
+discharging_symbol = ""
+
+[[battery.display]]
+threshold = 10
+style = "red bold"
+
+[character]
+success_symbol = "[❯](green)"
+error_symbol = "[❯](red)"
