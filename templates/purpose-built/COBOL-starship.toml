@@ -1,0 +1,13 @@
+[custom.cobol]
+command = "echo COBOL"
+when = """ test -f "*.cob" -o -f "*.cbl" """
+symbol = "🏛️ "
+style = "bold green"
+
+[directory]
+style = "bold yellow"
+truncation_length = 8
+
+[git_branch]
+symbol = "📊 "
+style = "bold green"
