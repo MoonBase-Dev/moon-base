@@ -1,0 +1,33 @@
+[hostname]
+ssh_only = false
+style = "bold green"
+prefix = "🌐 "
+
+[username]
+style_user = "bold cyan"
+show_always = true
+
+[directory]
+style = "bold blue"
+truncation_length = 3
+
+[custom.network]
+command = "ip route | grep default | awk '{print $3}' | head -1"
+when = "command -v ip"
+symbol = "🔗 "
+style = "bold green"
+
+[custom.bandwidth]
+command = "vnstat -i eth0 --oneline | cut -d';' -f11"
+when = "command -v vnstat"
+symbol = "📊 "
+style = "bold yellow"
+
+[cmd_duration]
+min_time = 200
+style = "bold cyan"
+
+[status]
+symbol = "🔴"
+success_symbol = "🟢"
+disabled = false
