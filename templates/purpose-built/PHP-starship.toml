@@ -1,0 +1,15 @@
+[php]
+symbol = "🐘 "
+style = "bold purple"
+
+[composer]
+symbol = "🎼 "
+style = "bold blue"
+
+[directory]
+style = "bold magenta"
+truncation_length = 3
+
+[git_branch]
+symbol = "🌿 "
+style = "bold green"
