@@ -1,0 +1,80 @@
+{
+  "configs": {
+    "corporate": {
+      "format": "[$username@$hostname]($username.style) [$directory]($directory.style) $character",
+      "username": {
+        "style": "blue",
+        "show_always": true
+      },
+      "hostname": {
+        "style": "green"
+      },
+      "directory": {
+        "style": "cyan",
+        "truncation_length": 2
+      },
+      "character": {
+        "success_symbol": "$ ",
+        "error_symbol": "$ "
+      }
+    },
+    "developer": {
+      "format": "[$username]($username.style)[@$hostname]($hostname.style):[$directory]($directory.style)[$git_branch$git_status]($git_branch.style)[$nodejs$python$rust$golang]($nodejs.style)$character",
+      "username": {
+        "style": "purple bold"
+      },
+      "hostname": {
+        "style": "green bold"
+      },
+      "directory": {
+        "style": "cyan"
+      },
+      "git_branch": {
+        "style": "purple"
+      },
+      "git_status": {
+        "style": "red"
+      },
+      "nodejs": {
+        "style": "green",
+        "symbol": " "
+      },
+      "python": {
+        "style": "yellow",
+        "symbol": " "
+      },
+      "rust": {
+        "style": "red",
+        "symbol": " "
+      },
+      "golang": {
+        "style": "cyan",
+        "symbol": " "
+      },
+      "character": {
+        "success_symbol": "[❯](green)",
+        "error_symbol": "[❯](red)"
+      }
+    },
+    "compact": {
+      "format": "$username@$hostname:$directory$git_branch$character",
+      "username": {
+        "style": "white"
+      },
+      "hostname": {
+        "style": "white"
+      },
+      "directory": {
+        "style": "blue",
+        "truncation_length": 1
+      },
+      "git_branch": {
+        "style": "yellow"
+      },
+      "character": {
+        "success_symbol": "> ",
+        "error_symbol": "> "
+      }
+    }
+  }
+}
