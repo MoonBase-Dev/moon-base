@@ -1,0 +1,41 @@
+tomlformat = """
+ [$username]($style)  [$hostname]($style)
+ [$directory]($style) $git_branch$git_status
+ $nodejs$python$rust$go$java$docker_context
+ $character"""
+
+[username]
+format = "$user"
+style_user = "bold blue"
+
+[hostname]
+format = "$hostname"
+style = "bold green"
+
+[directory]
+format = "$path"
+style = "bold cyan"
+
+[git_branch]
+format = "[ $branch]($style) "
+style = "bold purple"
+
+[git_status]
+format = '([ $all_status]($style) )'
+style = "bold red"
+
+[nodejs]
+format = "[ $version]($style) "
+style = "bold green"
+
+[python]
+format = '[ $version( \($virtualenv\))]($style) '
+style = "bold yellow"
+
+[rust]
+format = "[ $version]($style) "
+style = "bold orange"
+
+[character]
+success_symbol = "[ ](bold green)"
+error_symbol = "[ ](bold red)"
