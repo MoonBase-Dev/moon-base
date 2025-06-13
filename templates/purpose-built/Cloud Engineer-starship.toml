@@ -1,0 +1,31 @@
+[aws]
+symbol = "☁️ "
+style = "bold yellow"
+
+[gcloud]
+symbol = "🌩️ "
+style = "bold blue"
+
+[azure]
+symbol = "🌀 "
+style = "bold cyan"
+
+[kubernetes]
+symbol = "⚓ "
+style = "bold blue"
+
+[docker_context]
+symbol = "🐳 "
+style = "bold blue"
+
+[terraform]
+symbol = "🏗️ "
+style = "bold purple"
+
+[directory]
+style = "bold cyan"
+truncation_length = 3
+
+[git_branch]
+symbol = "🌿 "
+style = "bold green"
