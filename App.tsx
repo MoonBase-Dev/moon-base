@@ -267,7 +267,7 @@ const App: React.FC = () => {
           />
            <div className="flex justify-center py-4"> {/* Centering container with padding */}
             <img
-              src="./assets/image.png" 
+              src="moon-base/assets/image.png" 
               alt="Moon Base Visual Editor Logo"
               className="w-40 h-40 object-contain rounded-full shadow-lg" 
             />
