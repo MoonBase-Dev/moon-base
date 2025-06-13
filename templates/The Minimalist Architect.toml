@@ -1,0 +1,37 @@
+# ~/.config/starship.toml
+format = "$character$directory$git_branch$git_status$cmd_duration$time "
+
+[character]
+success_symbol = "[>](bold green)"
+error_symbol = "[X](bold red)"
+
+[directory]
+truncation_length = 1
+truncate_to_repo = true
+style = "bold blue"
+
+[git_branch]
+symbol = " "
+style = "bold purple"
+
+[git_status]
+format = "([$all_status$ahead_behind]($style))"
+conflicted = "⚔️"
+ahead = "⬆️"
+behind = "⬇️"
+diverged = "↕️"
+untracked = "?"
+stashed = "📦"
+modified = "✍️"
+staged = "✅"
+renamed = "➡️"
+deleted = "🗑️"
+style = "bold yellow"
+
+[cmd_duration]
+min_time = 500
+format = "[$duration](dimmed white)"
+
+[time]
+time_format = "%H:%M"
+format = "[$time](dimmed black)"
