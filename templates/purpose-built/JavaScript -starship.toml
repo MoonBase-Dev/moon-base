@@ -1,0 +1,23 @@
+[nodejs]
+symbol = "🟨 "
+style = "bold yellow"
+
+[npm]
+symbol = "📦 "
+style = "bold red"
+
+[yarn]
+symbol = "🧶 "
+style = "bold blue"
+
+[package]
+symbol = "📋 "
+style = "bold green"
+
+[git_branch]
+symbol = "🌿 "
+style = "bold green"
+
+[directory]
+style = "bold yellow"
+truncation_length = 3
