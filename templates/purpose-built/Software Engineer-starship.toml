@@ -1,0 +1,30 @@
+[git_branch]
+symbol = "🌿 "
+style = "bold green"
+
+[git_status]
+style = "bold red"
+ahead = "⇡${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+behind = "⇣${count}"
+
+[directory]
+style = "bold blue"
+truncation_length = 4
+
+[package]
+symbol = "📦 "
+style = "bold cyan"
+
+[nodejs]
+symbol = "⬢ "
+style = "bold green"
+
+[python]
+symbol = "🐍 "
+style = "bold yellow"
+
+[cmd_duration]
+min_time = 1000
+style = "bold yellow"
+show_milliseconds = true
