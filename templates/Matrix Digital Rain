@@ -1,0 +1,27 @@
+tomlformat = """
+[┌─[](bold green)[$username](bold green)[▶](bold green)[$hostname](bold green)[◀─┐](bold green)
+[│](bold green) [$directory](bold cyan) [│](bold green)
+[│](bold green) $git_branch$git_status [│](bold green)
+[└─▶](bold green) $character"""
+
+[username]
+format = "$user"
+style_user = "bold green"
+
+[hostname]
+format = "$hostname"
+style = "bold green"
+
+[directory]
+format = "$path"
+style = "bold cyan"
+
+[git_branch]
+format = "[⫸ $branch](bold magenta) "
+
+[git_status]
+format = '[$all_status](bold red) '
+
+[character]
+success_symbol = "[▶](bold green)"
+error_symbol = "[✖](bold red)"
