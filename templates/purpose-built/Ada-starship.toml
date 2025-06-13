@@ -1,0 +1,13 @@
+[custom.ada]
+command = "echo Ada"
+when = """ test -f "*.adb" -o -f "*.ads" """
+symbol = "🛡️ "
+style = "bold green"
+
+[directory]
+style = "bold green"
+truncation_length = 5
+
+[git_branch]
+symbol = "🔒 "
+style = "bold yellow"
