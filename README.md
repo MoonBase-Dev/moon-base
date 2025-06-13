@@ -1,7 +1,7 @@
 ![moon-base logo](https://github.com/MoonBase-Dev/moon-base/blob/main/site_res/mb40.png) 
-Moon Base is a visual editor designed to help you create, customize, and manage your [Starship](https://starship.rs/) prompt configuration files (`starship.toml`) with ease. It provides a user-friendly interface to tweak various settings, modules, and palettes, offering a live preview of both your prompt and the generated TOML output.
+Moon Base is a visual editor designed to help you create, customize, and manage your [Starship](https://starship.rs/) prompt configuration files (`starship.toml`)                               with ease. It provides a user-friendly interface to tweak various settings, modules, and palettes, offering a live preview of both your                               prompt and the generated TOML output.
 
-Moon Base is a visual editor designed to help you create, customize, and manage your [Starship](https://starship.rs/) prompt configuration files (`starship.toml`) with ease. It provides a user-friendly interface to tweak various settings, modules, and palettes, offering a live preview of both your prompt and the generated TOML output.
+
 
 ## ✨ Features
 
@@ -94,8 +94,8 @@ Moon Base is designed to be intuitive. Here's a general workflow:
 *   **Palettes**: Using the `[palette]` table (managed via the Palette Editor) is highly recommended for defining reusable color variables, making your configuration cleaner and easier to maintain.
 
 ## Local Development Assets
-*   Make sure you have an `assets` folder in the root of the project.
-*   Place the application logo, named `image.png`, inside this `assets` folder as it's referenced by `App.tsx` via the path `./assets/image.png`.
+*   If building localy, be sure you have an `assets` folder in the root of the project.
+*   Place the application logo, named `example.png`, inside this `assets` folder as it's referenced by `App.tsx` via the path `./assets/image.png`.
 
 ## 🤝 Contributing & Feedback
 
