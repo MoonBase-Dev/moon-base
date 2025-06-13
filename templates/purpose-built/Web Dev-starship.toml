@@ -1,0 +1,37 @@
+[nodejs]
+symbol = "⬢ "
+style = "bold green"
+
+[npm]
+symbol = "📦 "
+style = "bold red"
+
+[git_branch]
+symbol = "🌿 "
+style = "bold green"
+
+[directory]
+style = "bold blue"
+truncation_length = 3
+
+[custom.html]
+command = "echo 'Web Dev'"
+when = """ test -f "*.html" """
+symbol = "🌐 "
+style = "bold red"
+
+[custom.css]
+command = "echo 'Styling'"
+when = """ test -f "*.css" """
+symbol = "🎨 "
+style = "bold blue"
+
+[custom.js]
+command = "echo 'Interactive'"
+when = """ test -f "*.js" """
+symbol = "⚡ "
+style = "bold yellow"
+
+[package]
+symbol = "📋 "
+style = "bold green"
