@@ -1,0 +1,1 @@
+format = """$(figlet -f small $HOSTNAME | head -n 2)$directory$line_break$character"""

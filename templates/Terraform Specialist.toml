@@ -1,0 +1,4 @@
+format = """$terraform_workspace$directory$line_break$character"""
+[terraform_workspace]
+format = "[🛠 $workspace]($style)"
+symbol = ""

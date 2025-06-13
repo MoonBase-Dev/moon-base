@@ -1,0 +1,5 @@
+format = """[ HP:$memory_percentage MP:$cpu_load ]$directory$line_break$character"""
+[memory_percentage]
+format = "[$percentage](bold red)"
+[cpu_load]
+format = "[$percentage](bold blue)"

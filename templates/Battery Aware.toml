@@ -1,0 +1,5 @@
+format = """$battery$username$hostname$directory$line_break$character"""
+[battery]
+full_symbol = "🔋"
+charging_symbol = "⚡"
+discharging_symbol = "💀"

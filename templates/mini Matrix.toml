@@ -1,0 +1,8 @@
+format = """$matrix$directory$line_break$character"""
+[matrix]
+format = "[${random_symbols}](bold green)"
+random_symbols = "0101010101"
+refresh_rate = 0.1
+[character]
+success_symbol = "[Φ](bold green)"
+error_symbol = "[Φ](bold red)"

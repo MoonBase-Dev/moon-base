@@ -1,0 +1,4 @@
+format = """$os$directory$line_break$character"""
+[os]
+style = "bold green"
+windows_format = "[🪟 $version]($style)"

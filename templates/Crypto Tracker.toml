@@ -1,0 +1,2 @@
+format = """$(curl -s "rate.sx/1BTC") $directory$line_break$character"""
+refresh_rate = 60

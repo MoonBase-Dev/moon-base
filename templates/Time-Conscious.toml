@@ -1,0 +1,5 @@
+format = """$time$directory$line_break$character"""
+[time]
+format = "🕒 [$time]($style)"
+style = "bold yellow"
+disabled = false

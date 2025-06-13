@@ -1,0 +1,4 @@
+format = """$memory_usage$cpu_usage$directory$line_break$character"""
+[memory_usage]
+threshold = 75
+format = "🧠 $percentage"

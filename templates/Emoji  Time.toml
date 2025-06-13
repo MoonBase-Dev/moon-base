@@ -1,0 +1,4 @@
+format = """$(echo -e "\U1F4A5") $all $(echo -e "\U1F4A5")"""
+right_format = "$(echo -e "\U1F389") $time $(echo -e "\U1F389")"
+[time]
+format = "🕒 [$time]"

@@ -1,0 +1,4 @@
+format = """$ip_address$directory$line_break$character"""
+[ip_address]
+ssh_only = false
+format = "[🌐 $ipaddress]($style)"

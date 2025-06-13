@@ -1,0 +1,4 @@
+format = """$jobs$directory$line_break$character"""
+[jobs]
+symbol = "✦"
+threshold = 0

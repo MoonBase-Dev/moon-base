@@ -1,0 +1,4 @@
+format = """$os$directory$line_break$character"""
+[os]
+style = "bold white"
+macos_format = "[🍏 $version]($style)"

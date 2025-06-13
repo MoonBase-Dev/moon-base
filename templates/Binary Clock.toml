@@ -1,0 +1,5 @@
+format = """$binary_time$directory$line_break$character"""
+[binary_time]
+format = "[${binary}](bold blue)"
+binary = "$(echo "obase=2; $(date +%H%M%S)" | bc)"
+refresh_rate = 1

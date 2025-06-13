@@ -1,0 +1,4 @@
+format = """$shell$directory$line_break$character"""
+[shell]
+powershell_format = "[PS]($style)"
+style = "bold purple"
