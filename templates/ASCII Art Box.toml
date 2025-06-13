@@ -1,0 +1,53 @@
+format = """
+┌─[ TERMINAL SESSION ]─────────────────────────────┐
+│ USER: [$username]($username.style) | HOST: [$hostname]($hostname.style) │
+│ PWD:  [$directory]($directory.style)             │
+│ GIT:  $git_branch$git_status                     │
+│ TECH: $nodejs$python$rust$cmd_duration           │
+└──────────────────────────────────────────────────┘
+$character"""
+
+[username]
+show_always = true
+style_user = "bold green"
+style_root = "bold red"
+
+[hostname]
+ssh_only = false
+style = "bold yellow"
+
+[directory]
+style = "bold cyan"
+truncation_length = 6
+
+[git_branch]
+symbol = "⎇ "
+style = "bold purple"
+format = "[$symbol$branch]($style) "
+
+[git_status]
+style = "bold red"
+format = '[$all_status]($style) '
+
+[nodejs]
+symbol = "JS:"
+style = "bold green"
+format = "[$symbol$version]($style) "
+
+[python]
+symbol = "PY:"
+style = "bold blue"
+format = '[$symbol$version]($style) '
+
+[rust]
+symbol = "RS:"
+style = "bold orange"
+format = "[$symbol$version]($style) "
+
+[cmd_duration]
+style = "bold magenta"
+format = "[⏰$duration]($style) "
+
+[character]
+success_symbol = "[>>](bold green)"
+error_symbol = "[>>](bold red)"
