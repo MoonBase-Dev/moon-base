@@ -1,0 +1,36 @@
+[hostname]
+ssh_only = false
+style = "bold red"
+prefix = "🖥️ "
+
+[username]
+style_user = "bold yellow"
+style_root = "bold red"
+show_always = true
+
+[directory]
+style = "bold blue"
+truncation_length = 2
+home_symbol = "🏠"
+
+[cmd_duration]
+min_time = 500
+style = "bold yellow"
+show_milliseconds = true
+
+[memory_usage]
+disabled = false
+symbol = "🧠 "
+style = "bold red"
+threshold = 75
+
+[status]
+style = "bold red"
+symbol = "❌"
+success_symbol = "✅"
+disabled = false
+
+[time]
+disabled = false
+style = "bold white"
+time_format = "%T"
