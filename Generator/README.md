@@ -1,9 +1,10 @@
-# 🚀 Starship Terminal Image Generator
+<img src="https://github.com/MoonBase-Dev/moon-base/blob/main/site_res/Moon-Base---a-Starship-visual-editor_logo_s.png" alt="moon-base logo" height="75">
 
-> Generate beautiful terminal preview images for your Starship configurations
+# 🚀 moonbase_generator...a Starship Terminal Image Generator
+Generate beautiful terminal preview images for your Starship configurations
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)      
 [![Starship](https://img.shields.io/badge/Starship-Compatible-purple.svg)](https://starship.rs)
 
 ## ✨ Features
