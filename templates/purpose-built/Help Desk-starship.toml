@@ -1,0 +1,29 @@
+[username]
+style_user = "bold green"
+show_always = true
+prefix = "🎧 "
+
+[hostname]
+ssh_only = false
+style = "bold blue"
+
+[directory]
+style = "bold cyan"
+truncation_length = 2
+
+[custom.tickets]
+command = "echo 'Tickets: 🎫'"
+symbol = "📋 "
+style = "bold yellow"
+
+[custom.uptime]
+command = "uptime | cut -d',' -f1 | cut -d' ' -f4-"
+when = "command -v uptime"
+symbol = "⏰ "
+style = "bold green"
+
+[status]
+symbol = "❗"
+success_symbol = "✅"
+disabled = false
+style = "bold red"
