@@ -1,0 +1,20 @@
+[rust]
+symbol = "🦀 "
+style = "bold red"
+
+[package]
+symbol = "📦 "
+style = "bold yellow"
+
+[directory]
+style = "bold orange"
+truncation_length = 4
+
+[git_branch]
+symbol = "⚙️ "
+style = "bold yellow"
+
+[memory_usage]
+disabled = false
+symbol = "🧠 "
+style = "bold red"
