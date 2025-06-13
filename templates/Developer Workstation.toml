@@ -1,0 +1,47 @@
+format = """
+╭─ 💻 [$username](bold green) on [$hostname](bold blue) in [$directory](bold cyan)
+├─ 🌿 $git_branch$git_status
+├─ 🛠️  $nodejs$python$rust$go$java$php$ruby
+├─ 🔧 $docker_context$kubernetes$terraform$gcloud$aws
+├─ ⏱️  $cmd_duration$jobs$battery
+╰─ 🚀 $character"""
+
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[➜](bold red)"
+
+[git_branch]
+format = "[$symbol$branch]($style) "
+symbol = "🌿 "
+style = "bold green"
+
+[git_status]
+format = '([$all_status$ahead_behind]($style) )'
+style = "bold yellow"
+
+[nodejs]
+format = "[⬢ $version]($style) "
+style = "bold green"
+
+[python]
+format = '[🐍 $version( \($virtualenv\))]($style) '
+style = "bold blue"
+
+[rust]
+format = "[🦀 $version]($style) "
+style = "bold red"
+
+[docker_context]
+format = "[🐳 $context]($style) "
+style = "bold blue"
+
+[kubernetes]
+format = '[☸️ $context( \($namespace\))]($style) '
+style = "bold cyan"
+
+[cmd_duration]
+format = "[⏰ $duration]($style) "
+style = "bold yellow"
+
+[battery]
+format = "[$symbol$percentage]($style) "
