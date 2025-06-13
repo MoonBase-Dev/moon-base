@@ -1,0 +1,22 @@
+[c]
+symbol = "⚡ "
+style = "bold blue"
+detect_extensions = ["cpp", "cxx", "cc", "c++", "hpp", "hxx", "h++"]
+
+[cmake]
+symbol = "🔧 "
+style = "bold cyan"
+
+[memory_usage]
+disabled = false
+symbol = "🧠 "
+style = "bold red"
+
+[cmd_duration]
+min_time = 100
+style = "bold yellow"
+show_milliseconds = true
+
+[directory]
+style = "bold cyan"
+truncation_length = 5
