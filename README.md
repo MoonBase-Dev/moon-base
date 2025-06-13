@@ -106,5 +106,122 @@ GPL v3
 availavle @ [License](https://github.com/MoonBase-Dev/moon-base/blob/main/MoonBase/LICENSE).
 
 ---
-
 Enjoy crafting your perfect Starship prompt with Moon Base!
+
+---
+
+# 20 Sxxxxxtarship.toml Configurations + Right Prompt Collection
+
+TODO
+
+---
+
+# Symbol Reference Table
+
+## Git Symbols
+| Symbol | Unicode | Description | Example Usage |
+|--------|---------|-------------|---------------|
+| 🌿 | U+1F33F | Git branch (nature) | `symbol = "🌿 "` |
+| 🚀 | U+1F680 | Git branch (rocket) | `symbol = "🚀 "` |
+| 🌸 | U+1F338 | Git branch (flower) | `symbol = "🌸 "` |
+| ⚡ | U+26A1 | Git branch (lightning) | `symbol = "⚡"` |
+| 🔥 | U+1F525 | Git status (fire) | `symbol = "🔥"` |
+| ⭐ | U+2B50 | Git branch (star) | `symbol = "⭐ "` |
+| 🎯 | U+1F3AF | Git branch (target) | `symbol = "🎯 "` |
+| 🛸 | U+1F6F8 | Git branch (UFO) | `symbol = "🛸 "` |
+| █ | U+2588 | Git branch (block) | `symbol = "█ "` |
+| ◆ | U+25C6 | Git branch (diamond) | `symbol = "◆ "` |
+
+## Directory Symbols
+| Symbol | Unicode | Description | Example Usage |
+|--------|---------|-------------|---------------|
+| 📁 | U+1F4C1 | Folder | `format = "[📁 $path]($style)"` |
+| 📂 | U+1F4C2 | Open folder | `format = "[📂 $path]($style)"` |
+| 🌌 | U+1F30C | Space/universe | `format = "[🌌 $path]($style)"` |
+| 🏠 | U+1F3E0 | Home | `format = "[🏠 $path]($style)"` |
+| 📍 | U+1F4CD | Location pin | `format = "[📍 $path]($style)"` |
+| 🗂️ | U+1F5C2 | File cabinet | `format = "[🗂️ $path]($style)"` |
+| 💼 | U+1F4BC | Briefcase | `format = "[💼 $path]($style)"` |
+| 🎪 | U+1F3AA | Circus tent | `format = "[🎪 $path]($style)"` |
+
+## Character/Prompt Symbols
+| Symbol | Unicode | Description | Example Usage |
+|--------|---------|-------------|---------------|
+| ❯ | U+276F | Right arrow | `success_symbol = "[❯](bold green)"` |
+| → | U+2192 | Right arrow | `success_symbol = "[→](bold white)"` |
+| ▶ | U+25B6 | Play button | `success_symbol = "[▶](bold green)"` |
+| ➜ | U+279C | Right arrow curved | `success_symbol = "[➜](bold green)"` |
+| ⚡ | U+26A1 | Lightning | `success_symbol = "[⚡](bold green)"` |
+| 🚀 | U+1F680 | Rocket | `success_symbol = "[🚀](bold green)"` |
+| ✨ | U+2728 | Sparkles | `success_symbol = "[✨](bold yellow)"` |
+| 💫 | U+1F4AB | Dizzy star | `error_symbol = "[💫](bold red)"` |
+| 💥 | U+1F4A5 | Explosion | `error_symbol = "[💥](bold red)"` |
+| 🔴 | U+1F534 | Red circle | `error_symbol = "[🔴](bold red)"` |
+| ✗ | U+2717 | X mark | `error_symbol = "[✗](bold red)"` |
+| ❌ | U+274C | Cross mark | `error_symbol = "[❌](bold red)"` |
+| 💀 | U+1F480 | Skull | `error_symbol = "[💀](bold red)"` |
+| 🌈 | U+1F308 | Rainbow | `success_symbol = "[🌈](bold magenta)"` |
+| λ | U+03BB | Lambda | `success_symbol = "[λ](bold green)"` |
+| ⟩ | U+27E9 | Angle bracket | `success_symbol = "[⟩](bold green)"` |
+| ● | U+25CF | Bullet | `success_symbol = "[●](white)"` |
+| # | U+0023 | Hash | `success_symbol = "[#](bold green)"` |
+| $ | U+0024 | Dollar | `success_symbol = "[$](bold white)"` |
+| > | U+003E | Greater than | `success_symbol = "[>](white)"` |
+
+## Language/Tool Symbols
+| Symbol | Unicode | Description | Tool |
+|--------|---------|-------------|------|
+| ⬢ | U+2B22 | Hexagon | Node.js |
+| 🐍 | U+1F40D | Snake | Python |
+| 🦀 | U+1F980 | Crab | Rust |
+| 🐹 | U+1F439 | Hamster | Go |
+| ☕ | U+2615 | Coffee | Java |
+| 🐳 | U+1F433 | Whale | Docker |
+| ☸ | U+2638 | Wheel | Kubernetes |
+| 📦 | U+1F4E6 | Package | Package managers |
+| 💎 | U+1F48E | Diamond | Ruby |
+| 🔧 | U+1F527 | Wrench | Tools/Jobs |
+| ⚙️ | U+2699 | Gear | Configuration |
+| 🏗️ | U+1F3D7 | Construction | Build tools |
+
+## Status/Info Symbols
+| Symbol | Unicode | Description | Usage |
+|--------|---------|-------------|-------|
+| 🔋 | U+1F50B | Battery | Battery status |
+| 🕐 | U+1F550 | Clock | Time |
+| ⏱️ | U+23F1 | Stopwatch | Command duration |
+| ⏰ | U+23F0 | Alarm clock | Time/Duration |
+| 🧠 | U+1F9E0 | Brain | Memory usage |
+| 💾 | U+1F4BE | Floppy disk | Storage |
+| 📊 | U+1F4CA | Bar chart | Statistics |
+| 🌡️ | U+1F321 | Thermometer | Temperature/CPU |
+| 📡 | U+1F4E1 | Satellite | Network |
+| 🔒 | U+1F512 | Lock | Security/SSH |
+| 🌐 | U+1F310 | Globe | Network/Web |
+| 💻 | U+1F4BB | Computer | Hostname |
+| 👤 | U+1F464 | User | Username |
+| 🎮 | U+1F3AE | Game controller | Gaming theme |
+
+## Decorative Symbols
+| Symbol | Unicode | Description | Usage |
+|--------|---------|-------------|-------|
+| ◆ | U+25C6 | Diamond | Decorative |
+| ◇ | U+25C7 | White diamond | Decorative |
+| ◈ | U+25C8 | Diamond outline | Decorative |
+| ◉ | U+25C9 | Circle dot | Decorative |
+| ◎ | U+25CE | Bullseye | Decorative |
+| ★ | U+2605 | Star | Decorative |
+| ☆ | U+2606 | White star | Decorative |
+| ▲ | U+25B2 | Triangle up | Decorative |
+| ▼ | U+25BC | Triangle down | Decorative |
+| ■ | U+25A0 | Square | Decorative |
+| □ | U+25A1 | White square | Decorative |
+| ⬢ | U+2B22 | Hexagon | Decorative |
+| ⬡ | U+2B21 | White hexagon | Decorative |
+
+## Usage Tips
+- Use `symbol = "🚀 "` with a space for proper spacing
+- Combine symbols: `format = "[🌿 git:$branch]($style) "`
+- Test symbols in your terminal to ensure proper rendering
+- Some symbols may require specific fonts (Nerd Fonts recommended)
+- Use Unicode escapes if needed: `\u{1F680}` for 🚀
