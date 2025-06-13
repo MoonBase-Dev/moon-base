@@ -1,0 +1,23 @@
+tomlformat = """
+[⧗ $time](bold yellow) [$username](bold blue)[@](white)[$hostname](bold red)
+[⧖ $directory](bold cyan) $git_branch$git_status
+[⧘ $package$nodejs$python$rust](bold magenta)
+[⧙ $character](bold green)"""
+
+[time]
+disabled = false
+format = "[$time]($style) "
+time_format = "%T"
+style = "bold yellow"
+
+[git_branch]
+format = "[⧆ $branch]($style) "
+style = "bold purple"
+
+[git_status]
+format = '([⧈ $all_status]($style) )'
+style = "bold red"
+
+[character]
+success_symbol = "[⧛](bold green)"
+error_symbol = "[⧘](bold red)"
