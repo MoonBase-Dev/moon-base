@@ -1,0 +1,55 @@
+# Powerline-style configuration
+format = """
+[](bg:blue fg:black)\
+[$username]($username.style)\
+[](bg:green fg:blue)\
+[$hostname]($hostname.style)\
+[](bg:cyan fg:green)\
+[$directory]($directory.style)\
+[](bg:purple fg:cyan)\
+[$git_branch$git_status]($git_branch.style)\
+[](fg:purple)\
+[$nodejs$python$rust$golang]($nodejs.style)\
+$character
+"""
+
+[username]
+style = "bg:blue fg:black"
+show_always = true
+format = "[ $user ]($style)"
+
+[hostname]
+style = "bg:green fg:black"
+format = "[ $hostname ]($style)"
+
+[directory]
+style = "bg:cyan fg:black"
+format = "[ $path ]($style)"
+truncation_length = 2
+
+[git_branch]
+style = "bg:purple fg:black"
+format = "[ $symbol$branch ]($style)"
+
+[git_status]
+style = "bg:purple fg:black"
+
+[nodejs]
+style = "green"
+format = " [$symbol$version]($style)"
+
+[python]
+style = "yellow"
+format = " [$symbol$version]($style)"
+
+[rust]
+style = "red"
+format = " [$symbol$version]($style)"
+
+[golang]
+style = "cyan"
+format = " [$symbol$version]($style)"
+
+[character]
+success_symbol = "[❯](green)"
+error_symbol = "[❯](red)"
