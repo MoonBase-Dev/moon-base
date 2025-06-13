@@ -1,0 +1,48 @@
+# Catppuccin-inspired theme
+format = """
+[$username]($username.style)\
+[ $hostname]($hostname.style)\
+[ $directory]($directory.style)\
+[$git_branch$git_status]($git_branch.style)\
+[$nodejs$python$rust$golang]($nodejs.style)\
+$character
+"""
+
+[username]
+style = "purple bold"
+format = "[$user]($style)"
+
+[hostname]
+style = "green bold"
+format = "[$hostname]($style)"
+
+[directory]
+style = "blue bold"
+format = "[$path]($style)"
+
+[git_branch]
+style = "purple"
+format = "[ $branch]($style)"
+
+[git_status]
+style = "red"
+
+[nodejs]
+style = "green"
+symbol = " "
+
+[python]
+style = "yellow"
+symbol = " "
+
+[rust]
+style = "red"
+symbol = " "
+
+[golang]
+style = "cyan"
+symbol = " "
+
+[character]
+success_symbol = "[➜](green)"
+error_symbol = "[➜](red)"
