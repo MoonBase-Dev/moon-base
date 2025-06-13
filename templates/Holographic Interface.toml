@@ -1,0 +1,32 @@
+format = """
+[╔═══════════════════════════════════════╗](bold cyan)
+[║](bold cyan) 🔷 IDENTITY: [$username](bold blue)[@](bold white)[$hostname](bold green) [║](bold cyan)
+[║](bold cyan) 🔹 LOCATION: [$directory](bold yellow) [║](bold cyan)
+[║](bold cyan) 🔸 REPOSITORY: $git_branch$git_status [║](bold cyan)
+[║](bold cyan) 🔺 RUNTIME: $nodejs$python$rust [║](bold cyan)
+[╚═══════════════════════════════════════╝](bold cyan)
+[▶](bold cyan) $character"""
+
+[character]
+success_symbol = "[READY](bold green)"
+error_symbol = "[ERROR](bold red)"
+
+[git_branch]
+format = "[$branch]($style) "
+style = "bold purple"
+
+[git_status]
+format = '[($all_status)]($style) '
+style = "bold red"
+
+[nodejs]
+format = "[NODE:$version]($style) "
+style = "bold green"
+
+[python]
+format = '[PY:$version( \($virtualenv\))]($style) '
+style = "bold blue"
+
+[rust]
+format = "[RS:$version]($style) "
+style = "bold orange"
