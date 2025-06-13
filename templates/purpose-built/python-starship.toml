@@ -1,0 +1,26 @@
+[python]
+symbol = "🐍 "
+style = "bold yellow"
+pyenv_version_name = true
+pyenv_prefix = "pyenv "
+
+[conda]
+symbol = "🅒 "
+style = "bold green"
+
+[virtualenv]
+symbol = "🔷 "
+style = "bold blue"
+
+[package]
+symbol = "📦 "
+style = "bold cyan"
+display_private = true
+
+[git_branch]
+symbol = "🌿 "
+style = "bold green"
+
+[directory]
+style = "bold blue"
+truncation_length = 3
