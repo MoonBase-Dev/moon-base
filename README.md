@@ -225,3 +225,18 @@ TODO
 - Test symbols in your terminal to ensure proper rendering
 - Some symbols may require specific fonts (Nerd Fonts recommended)
 - Use Unicode escapes if needed: `\u{1F680}` for 🚀
+
+---
+
+## 🙏 Acknowledgments
+
+- [Starship](https://starship.rs) - The cross-shell prompt
+- [Dracula Theme](https://draculatheme.com)
+- [Nord Theme](https://nordtheme.com)
+- [Catppuccin](https://catppuccin.com)
+- [Tokyo Night](https://github.com/enkia/tokyo-night-vscode-theme)
+
+
+---
+
+**Made with ❤️ for the Starship community**
