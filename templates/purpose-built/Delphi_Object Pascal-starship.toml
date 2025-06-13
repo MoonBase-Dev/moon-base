@@ -1,0 +1,13 @@
+[custom.pascal]
+command = "echo Pascal"
+when = """ test -f "*.pas" -o -f "*.pp" -o -f "*.dpr" """
+symbol = "🏛️ "
+style = "bold blue"
+
+[directory]
+style = "bold white"
+truncation_length = 5
+
+[git_branch]
+symbol = "🔗 "
+style = "bold cyan"
