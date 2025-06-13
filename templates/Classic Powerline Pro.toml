@@ -1,0 +1,60 @@
+format = "$os$username$hostname$directory$git_branch$git_status$nodejs$python$rust$cmd_duration$line_break$character"
+
+[os]
+format = "[$symbol](bg:blue fg:black)"
+disabled = false
+
+[os.symbols]
+Windows = " "
+Arch = " "
+Ubuntu = " "
+Macos = " "
+
+[username]
+show_always = true
+style_user = "bg:purple fg:black"
+style_root = "bg:red fg:black"
+format = "[$user]($style)"
+
+[hostname]
+ssh_only = false
+style = "bg:yellow fg:black"
+format = "[$hostname]($style)"
+
+[directory]
+style = "bg:cyan fg:black"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncate_to_repo = false
+
+[git_branch]
+symbol = " "
+style = "bg:green fg:black"
+format = "[ $symbol$branch ]($style)"
+
+[git_status]
+style = "bg:red fg:black"
+format = "[$all_status$ahead_behind ]($style)"
+
+[nodejs]
+symbol = " "
+style = "bg:green fg:black"
+format = "[ $symbol($version) ]($style)"
+
+[python]
+symbol = " "
+style = "bg:blue fg:black"
+format = '[ ${symbol}${pyenv_prefix}(${version}) (\($virtualenv\)) ]($style)'
+
+[rust]
+symbol = " "
+style = "bg:orange fg:black"
+format = "[ $symbol($version) ]($style)"
+
+[cmd_duration]
+style = "bg:magenta fg:black"
+format = "[ 祥$duration ]($style)"
+
+[character]
+success_symbol = "[](bold green)"
+error_symbol = "[](bold red)"
