@@ -1,0 +1,13 @@
+[custom.scratch]
+command = "echo Scratch"
+when = """ test -f "*.sb3" -o -f "*.sb2" """
+symbol = "🧩 "
+style = "bold yellow"
+
+[directory]
+style = "bold green"
+truncation_length = 3
+
+[git_branch]
+symbol = "🎨 "
+style = "bold red"
