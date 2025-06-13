@@ -1,0 +1,44 @@
+# ~/.config/starship.toml
+format = """
+$username@$hostname$directory$git_branch$git_status$python$nodejs$docker_context$cmd_duration
+[](fg:red bg:bold_red)[ % ](fg:white bg:bold_red)"""
+
+[username]
+style_user = "bold bright-cyan"
+style_root = "bold bright-red"
+format = "[$user]($style)"
+show_always = true
+
+[hostname]
+ssh_only = false
+format = "[$hostname](bold bright-magenta) "
+
+[directory]
+style = "bold bright-blue"
+truncation_length = 0
+
+[git_branch]
+symbol = " "
+style = "bold bright-green"
+
+[git_status]
+style = "bright-yellow"
+
+[python]
+symbol = "🐍 "
+format = "via [$symbol$version](bold bright-yellow) "
+
+[nodejs]
+symbol = "⬢ "
+format = "via [$symbol$version](bold bright-green) "
+
+[docker_context]
+symbol = "🐳 "
+style = "bold bright-blue"
+
+[cmd_duration]
+format = "took [$duration](bold white) "
+
+[character]
+success_symbol = "[󰘳](bold red)"
+error_symbol = "[󰅖](bold red)"
