@@ -1,0 +1,14 @@
+toml 
+format = "$directory$git_branch$character"
+
+[directory]
+format = "[$path](bold white) "
+truncation_length = 1
+truncate_to_repo = true
+
+[git_branch]
+format = "[$branch](bold blue) "
+
+[character]
+success_symbol = "[·](bold green)"
+error_symbol = "[×](bold red)"
