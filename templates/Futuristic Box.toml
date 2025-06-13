@@ -1,0 +1,54 @@
+format = """
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ 🔷 ID: [$username]($username.style)@[$hostname]($hostname.style) █
+█ 🔹 LOC: [$directory]($directory.style) █
+█ 🔸 VCS: $git_branch$git_status █
+█ 🔺 ENV: $nodejs$python$rust$kubernetes █
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+$character"""
+
+[username]
+show_always = true
+style_user = "bold cyan"
+style_root = "bold red"
+
+[hostname]
+ssh_only = false
+style = "bold magenta"
+
+[directory]
+style = "bold yellow"
+truncation_length = 4
+
+[git_branch]
+symbol = "⚡"
+style = "bold green"
+format = "[$symbol$branch]($style) "
+
+[git_status]
+style = "bold red"
+format = '[$all_status]($style) '
+
+[nodejs]
+symbol = "◆"
+style = "bold green"
+format = "[$symbol$version]($style) "
+
+[python]
+symbol = "◇"
+style = "bold blue"
+format = '[$symbol$version]($style) '
+
+[rust]
+symbol = "◈"
+style = "bold orange"
+format = "[$symbol$version]($style) "
+
+[kubernetes]
+symbol = "⬢"
+style = "bold cyan"
+format = '[$symbol$context]($style) '
+
+[character]
+success_symbol = "[▶](bold green)"
+error_symbol = "[▶](bold red)"
