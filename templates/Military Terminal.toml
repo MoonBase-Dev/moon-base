@@ -1,0 +1,24 @@
+format = """
+[████](bold red) [$username](bold white)[@](bold red)[$hostname](bold white) [████](bold red)
+[▓▓▓▓](bold yellow) [$directory](bold cyan) [▓▓▓▓](bold yellow)
+[░░░░](bold green) $git_branch$git_status$cmd_duration [░░░░](bold green)
+[>>>>](bold blue) $character"""
+
+[username]
+show_always = true
+
+[git_branch]
+format = "[BRANCH: $branch]($style) "
+style = "bold yellow"
+
+[git_status]
+format = '[STATUS: $all_status]($style) '
+style = "bold red"
+
+[cmd_duration]
+format = "[TIME: $duration]($style) "
+style = "bold green"
+
+[character]
+success_symbol = "[GO](bold green)"
+error_symbol = "[ERR](bold red)"
