@@ -1,0 +1,30 @@
+# ~/.config/starship.toml
+format = """
+$username$hostname$directory$git_branch$git_status$python$rust$golang$nodejs$java$docker_context
+$character"""
+
+[username]
+style_user = "bold black on bright-white"
+style_root = "bold white on red"
+format = "[$user]($style) "
+
+[hostname]
+ssh_only = true
+format = "on [$hostname](bold purple) "
+
+[directory]
+style = "bold blue"
+read_only_style = "bold red"
+format = "[$path]($style)[$lock_symbol]($lock_style) "
+
+[git_branch]
+symbol = " "
+style = "bold yellow"
+format = "on [$symbol$branch]($style) "
+
+[git_status]
+format = "([$all_status$ahead_behind]($style))"
+style = "bold green"
+
+[python]
+symbol =
