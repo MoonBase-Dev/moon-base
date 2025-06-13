@@ -1,0 +1,15 @@
+[rlang]
+symbol = "📈 "
+style = "bold blue"
+
+[directory]
+style = "bold cyan"
+truncation_length = 4
+
+[git_branch]
+symbol = "📊 "
+style = "bold green"
+
+[package]
+symbol = "📦 "
+style = "bold purple"
