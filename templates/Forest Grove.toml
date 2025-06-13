@@ -1,0 +1,21 @@
+format = """
+🌲 [$username](bold green)[@](bold brown)[$hostname](bold forest_green) 🍃
+🦌 [$directory](bold green) $git_branch$git_status
+🐻 $nodejs$python$rust$package
+🌰 $character"""
+
+[character]
+success_symbol = "[🌿](bold green)"
+error_symbol = "[🔥](bold red)"
+
+[git_branch]
+format = "[🌱 $branch]($style) "
+style = "bold green"
+
+[git_status]
+format = '([🍂 $all_status]($style) )'
+style = "bold yellow"
+
+[package]
+format = "[📦 $version]($style) "
+style = "bold brown"
