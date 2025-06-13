@@ -1,0 +1,21 @@
+[golang]
+symbol = "🐹 "
+style = "bold cyan"
+
+[git_branch]
+symbol = "🔗 "
+style = "bold blue"
+
+[directory]
+style = "bold cyan"
+truncation_length = 4
+
+[cmd_duration]
+min_time = 100
+style = "bold green"
+show_milliseconds = true
+
+[memory_usage]
+disabled = false
+symbol = "🚀 "
+style = "bold yellow"
