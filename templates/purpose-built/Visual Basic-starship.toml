@@ -1,0 +1,13 @@
+[custom.vb]
+command = "echo VB"
+when = """ test -f "*.vb" -o -f "*.vbs" """
+symbol = "🔷 "
+style = "bold blue"
+
+[directory]
+style = "bold blue"
+truncation_length = 4
+
+[git_branch]
+symbol = "📁 "
+style = "bold cyan"
