@@ -1,0 +1,45 @@
+format = "$username$hostname$directory$git_branch$git_status$docker_context$nodejs$python$character"
+
+[username]
+show_always = true
+style_user = "bg:#FF6B6B fg:#000000"
+style_root = "bg:#FF3838 fg:#FFFFFF"
+format = "[ $user ]($style)"
+
+[hostname]
+ssh_only = false
+style = "bg:#4ECDC4 fg:#000000"
+format = "[ $hostname ]($style)"
+
+[directory]
+style = "bg:#45B7D1 fg:#000000"
+format = "[  $path ]($style)"
+truncation_length = 4
+
+[git_branch]
+symbol = " "
+style = "bg:#96CEB4 fg:#000000"
+format = "[ $symbol$branch ]($style)"
+
+[git_status]
+style = "bg:#FECA57 fg:#000000"
+format = "[ $all_status$ahead_behind ]($style)"
+
+[docker_context]
+symbol = " "
+style = "bg:#A8E6CF fg:#000000"
+format = "[ $symbol$context ]($style)"
+
+[nodejs]
+symbol = " "
+style = "bg:#88D8B0 fg:#000000"
+format = "[ $symbol$version ]($style)"
+
+[python]
+symbol = " "
+style = "bg:#FFB6B9 fg:#000000"
+format = '[ $symbol$version(\($virtualenv\)) ]($style)'
+
+[character]
+success_symbol = "[](bold #00D2FF)"
+error_symbol = "[](bold #FF6B6B)"
