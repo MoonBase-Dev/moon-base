@@ -1,3 +1,30 @@
+Installation Instructions
+
+Install Starship: curl -sS https://starship.rs/install.sh | sh
+Create ~/.config/starship.toml
+Copy the relevant config above
+Add to your shell profile:
+
+Bash: eval "$(starship init bash)"
+Zsh: eval "$(starship init zsh)"
+Fish: starship init fish | source
+PowerShell: Invoke-Expression (&starship init powershell)
+
+
+
+Pro Tips
+
+Mix and match modules from different configs
+Adjust truncation_length based on your terminal width
+Use starship explain to understand what each symbol means
+Customize colors with: black, red, green, yellow, blue, purple, cyan, white
+Add bold, italic, underline, or strikethrough for styling
+Test configs with starship print-config before applying
+
+Each config is optimized for maximum productivity in its specific domain while maintaining visual appeal and information density!
+
+---
+
 Ultimate Starship Configs Collection
 A curated collection of hyper-focused Starship terminal prompts optimized for specific programming languages and IT roles. Each configuration is designed to enhance productivity by displaying the most relevant information for your workflow while maintaining visual appeal and performance.
 🎯 Design Philosophy
