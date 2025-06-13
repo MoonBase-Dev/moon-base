@@ -1,0 +1,55 @@
+format = "$username$hostname$directory$git_branch$git_status$nodejs$python$rust$golang$java$character"
+
+[username]
+show_always = true
+style_user = "bg:#FF0080 fg:#FFFFFF"
+style_root = "bg:#8B0000 fg:#FFFFFF"
+format = "[ ﮊ $user ]($style)"
+
+[hostname]
+ssh_only = false
+style = "bg:#FF4500 fg:#FFFFFF"
+format = "[ ﯲ $hostname ]($style)"
+
+[directory]
+style = "bg:#FFD700 fg:#000000"
+format = "[  $path ]($style)"
+truncation_length = 6
+
+[git_branch]
+symbol = " "
+style = "bg:#32CD32 fg:#000000"
+format = "[ $symbol$branch ]($style)"
+
+[git_status]
+style = "bg:#00CED1 fg:#000000"
+format = "[ ﮖ $all_status ]($style)"
+
+[nodejs]
+symbol = " "
+style = "bg:#4169E1 fg:#FFFFFF"
+format = "[ $symbol$version ]($style)"
+
+[python]
+symbol = " "
+style = "bg:#8A2BE2 fg:#FFFFFF"
+format = '[ $symbol$version ]($style)'
+
+[rust]
+symbol = " "
+style = "bg:#DC143C fg:#FFFFFF"
+format = "[ $symbol$version ]($style)"
+
+[golang]
+symbol = " "
+style = "bg:#00FFFF fg:#000000"
+format = "[ $symbol$version ]($style)"
+
+[java]
+symbol = " "
+style = "bg:#FF1493 fg:#FFFFFF"
+format = "[ $symbol$version ]($style)"
+
+[character]
+success_symbol = "[](bold #00FF00)"
+error_symbol = "[](bold #FF0000)"
