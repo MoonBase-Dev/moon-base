@@ -1,0 +1,11 @@
+[perl]
+symbol = "🐪 "
+style = "bold purple"
+
+[directory]
+style = "bold yellow"
+truncation_length = 4
+
+[git_branch]
+symbol = "🔗 "
+style = "bold magenta"
