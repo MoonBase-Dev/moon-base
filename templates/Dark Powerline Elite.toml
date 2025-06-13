@@ -1,0 +1,58 @@
+format = "$os$username$hostname$directory$git_branch$git_status$package$nodejs$python$rust$cmd_duration$character"
+
+[os]
+format = "[$symbol](bg:#1e1e1e fg:#ffffff)"
+disabled = false
+
+[username]
+show_always = true
+style_user = "bg:#2d2d2d fg:#ffffff"
+style_root = "bg:#d70000 fg:#ffffff"
+format = "[ $user ]($style)"
+
+[hostname]
+ssh_only = false
+style = "bg:#3a3a3a fg:#ffffff"
+format = "[ $hostname ]($style)"
+
+[directory]
+style = "bg:#0087af fg:#ffffff"
+format = "[  $path ]($style)"
+truncation_length = 5
+
+[git_branch]
+symbol = " "
+style = "bg:#5f8700 fg:#ffffff"
+format = "[ $symbol$branch ]($style)"
+
+[git_status]
+style = "bg:#af0000 fg:#ffffff"
+format = "[ $all_status ]($style)"
+
+[package]
+symbol = " "
+style = "bg:#875f00 fg:#ffffff"
+format = "[ $symbol$version ]($style)"
+
+[nodejs]
+symbol = " "
+style = "bg:#008700 fg:#ffffff"
+format = "[ $symbol$version ]($style)"
+
+[python]
+symbol = " "
+style = "bg:#0087d7 fg:#ffffff"
+format = '[ $symbol$version ]($style)'
+
+[rust]
+symbol = " "
+style = "bg:#af5f00 fg:#ffffff"
+format = "[ $symbol$version ]($style)"
+
+[cmd_duration]
+style = "bg:#5f5f87 fg:#ffffff"
+format = "[ ⏱ $duration ]($style)"
+
+[character]
+success_symbol = "[](bold green)"
+error_symbol = "[](bold red)"
