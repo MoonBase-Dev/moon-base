@@ -1,0 +1,155 @@
+# Batch configuration file with multiple themes
+
+[config.minimal]
+format = "$username@$hostname:$directory$git_branch$character"
+
+[config.minimal.username]
+style = "blue"
+
+[config.minimal.hostname]
+style = "green"
+
+[config.minimal.directory]
+style = "cyan"
+
+[config.minimal.git_branch]
+style = "purple"
+
+[config.minimal.character]
+success_symbol = "$ "
+error_symbol = "$ "
+
+[config.detailed]
+format = """
+[$username]($username.style)\
+[@$hostname]($hostname.style)\
+[($directory)]($directory.style)\
+[$git_branch$git_status]($git_branch.style)\
+[$nodejs$python$rust$golang]($nodejs.style)\
+[$cmd_duration]($cmd_duration.style)\
+$character
+"""
+
+[config.detailed.username]
+style = "blue bold"
+show_always = true
+
+[config.detailed.hostname]
+style = "green bold"
+
+[config.detailed.directory]
+style = "cyan"
+truncation_length = 3
+
+[config.detailed.git_branch]
+style = "purple"
+
+[config.detailed.git_status]
+style = "red"
+
+[config.detailed.nodejs]
+style = "green"
+
+[config.detailed.python]
+style = "yellow"
+
+[config.detailed.rust]
+style = "red"
+
+[config.detailed.golang]
+style = "cyan"
+
+[config.detailed.cmd_duration]
+style = "yellow"
+min_time = 2000
+
+[config.detailed.character]
+success_symbol = "[❯](green)"
+error_symbol = "[❯](red)"
+
+[config.powerline]
+format = """
+[](bg:blue fg:black)\
+[$username]($username.style)\
+[](bg:green fg:blue)\
+[$hostname]($hostname.style)\
+[](bg:cyan fg:green)\
+[$directory]($directory.style)\
+[](bg:purple fg:cyan)\
+[$git_branch]($git_branch.style)\
+[](fg:purple)\
+$character
+"""
+
+[config.powerline.username]
+style = "bg:blue fg:black"
+show_always = true
+format = "[ $user ]($style)"
+
+[config.powerline.hostname]
+style = "bg:green fg:black"
+format = "[ $hostname ]($style)"
+
+[config.powerline.directory]
+style = "bg:cyan fg:black"
+format = "[ $path ]($style)"
+
+[config.powerline.git_branch]
+style = "bg:purple fg:black"
+format = "[ $branch ]($style)"
+
+[config.powerline.character]
+success_symbol = " [❯](green)"
+error_symbol = " [❯](red)"
+
+[config.nerd_font]
+format = """
+[$username]($username.style)\
+[ ]($hostname.style)\
+[$hostname]($hostname.style)\
+[ ]($directory.style)\
+[$directory]($directory.style)\
+[$git_branch$git_status]($git_branch.style)\
+[$nodejs$python$rust$golang]($nodejs.style)\
+$character
+"""
+
+[config.nerd_font.username]
+style = "purple bold"
+format = "[$user]($style)"
+
+[config.nerd_font.hostname]
+style = "green bold"
+format = "[$hostname]($style)"
+
+[config.nerd_font.directory]
+style = "cyan bold"
+format = "[$path]($style)"
+
+[config.nerd_font.git_branch]
+style = "purple"
+format = "[ $branch]($style)"
+symbol = " "
+
+[config.nerd_font.git_status]
+style = "red"
+
+[config.nerd_font.nodejs]
+style = "green"
+symbol = " "
+
+[config.nerd_font.python]
+style = "yellow"
+symbol = " "
+
+[config.nerd_font.rust]
+style = "red"
+symbol = " "
+
+[config.nerd_font.golang]
+style = "cyan"
+symbol = " "
+
+[config.nerd_font.character]
+success_symbol = "[➜](green)"
+error_symbol = "[➜](red)"
