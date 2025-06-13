@@ -1,0 +1,19 @@
+[dotnet]
+symbol = "💜 "
+style = "bold purple"
+heuristic = false
+
+[package]
+symbol = "📦 "
+style = "bold blue"
+
+[git_branch]
+symbol = "🔀 "
+style = "bold cyan"
+
+[directory]
+style = "bold magenta"
+truncation_length = 4
+
+[cmd_duration]
+style = "bold white"
