@@ -1,0 +1,13 @@
+[custom.fortran]
+command = "echo Fortran"
+when = """ test -f "*.f90" -o -f "*.f95" -o -f "*.f03" -o -f "*.f08" """
+symbol = "🧮 "
+style = "bold green"
+
+[directory]
+style = "bold blue"
+truncation_length = 6
+
+[git_branch]
+symbol = "📊 "
+style = "bold green"
