@@ -1,0 +1,18 @@
+[custom.assembly]
+command = "echo ASM"
+when = """ test -f "*.asm" -o -f "*.s" """
+symbol = "⚙️ "
+style = "bold white"
+
+[directory]
+style = "bold cyan"
+truncation_length = 6
+
+[git_branch]
+symbol = "🔧 "
+style = "bold blue"
+
+[memory_usage]
+disabled = false
+symbol = "💾 "
+style = "bold yellow"
