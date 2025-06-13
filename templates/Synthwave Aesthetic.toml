@@ -1,0 +1,27 @@
+format = """
+[▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄](bold magenta)
+[█](bold magenta) [$username](bold cyan)[@](bold white)[$hostname](bold pink) [█](bold magenta)
+[█](bold magenta) [$directory](bold yellow) [█](bold magenta)
+[█](bold magenta) $git_branch$git_status $nodejs$python [█](bold magenta)
+[▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀](bold magenta)
+$character"""
+
+[character]
+success_symbol = "[►](bold green)"
+error_symbol = "[✘](bold red)"
+
+[git_branch]
+format = "[⚡ $branch]($style) "
+style = "bold purple"
+
+[git_status]
+format = '([⚠ $all_status]($style) )'
+style = "bold red"
+
+[nodejs]
+format = "[◆ $version]($style) "
+style = "bold green"
+
+[python]
+format = '[◇ $version( \($virtualenv\))]($style) '
+style = "bold blue"
