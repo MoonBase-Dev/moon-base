@@ -1,0 +1,31 @@
+[custom.database]
+command = "echo DBA"
+symbol = "🗄️ "
+style = "bold blue"
+
+[directory]
+style = "bold cyan"
+truncation_length = 4
+
+[custom.mysql]
+command = "mysql --version | cut -d' ' -f6"
+when = "command -v mysql"
+symbol = "🐬 "
+style = "bold blue"
+
+[custom.postgres]
+command = "psql --version | cut -d' ' -f3"
+when = "command -v psql"
+symbol = "🐘 "
+style = "bold blue"
+
+[memory_usage]
+disabled = false
+symbol = "💾 "
+style = "bold yellow"
+threshold = 70
+
+[time]
+disabled = false
+style = "bold white"
+time_format = "%H:%M:%S"
