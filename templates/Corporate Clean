@@ -1,0 +1,25 @@
+tomlformat = "$directory$git_branch$git_status$line_break$jobs$character"
+
+[directory]
+style = "blue"
+format = "[$path]($style) "
+truncation_length = 4
+truncate_to_repo = true
+
+[git_branch]
+format = "[$symbol$branch]($style) "
+symbol = "⎇ "
+style = "bright-black"
+
+[git_status]
+format = "[$all_status$ahead_behind]($style) "
+style = "red"
+
+[character]
+success_symbol = "[▶](bold green)"
+error_symbol = "[▶](bold red)"
+
+[jobs]
+format = "[$symbol$number]($style) "
+symbol = "✦ "
+style = "bold blue"
