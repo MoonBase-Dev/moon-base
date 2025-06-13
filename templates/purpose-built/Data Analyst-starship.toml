@@ -1,0 +1,29 @@
+[python]
+symbol = "🐍 "
+style = "bold blue"
+
+[rlang]
+symbol = "📈 "
+style = "bold blue"
+
+[custom.jupyter]
+command = "jupyter --version | head -1"
+when = "command -v jupyter"
+symbol = "📓 "
+style = "bold orange"
+
+[directory]
+style = "bold purple"
+truncation_length = 4
+
+[git_branch]
+symbol = "📊 "
+style = "bold green"
+
+[package]
+symbol = "📦 "
+style = "bold cyan"
+
+[conda]
+symbol = "🅒 "
+style = "bold green"
