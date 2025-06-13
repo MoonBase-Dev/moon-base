@@ -1,0 +1,49 @@
+tomlformat = """
+🚀 [$username](bold blue)[@](white)[$hostname](bold red) 🌌 [$directory](bold cyan)
+🛸 $git_branch$git_status$docker_context$kubernetes$aws
+⭐ $nodejs$python$rust$go$java$package$cmd_duration
+🌟 $character"""
+
+[character]
+success_symbol = "[🚀](bold green)"
+error_symbol = "[💥](bold red)"
+
+[git_branch]
+format = "[$symbol$branch]($style) "
+symbol = "🌙 "
+style = "bold purple"
+
+[git_status]
+format = '([$all_status$ahead_behind]($style) )'
+style = "bold yellow"
+
+[docker_context]
+format = "[🐳 $context]($style) "
+style = "bold blue"
+
+[kubernetes]
+format = '[☸️ $context( \($namespace\))]($style) '
+style = "bold cyan"
+
+[aws]
+format = '[☁️ $profile( \($region\))]($style) '
+style = "bold orange"
+
+[nodejs]
+format = "[$symbol$version]($style) "
+symbol = "📦 "
+style = "bold green"
+
+[python]
+format = '[${symbol}${version}( \($virtualenv\))]($style) '
+symbol = "🐍 "
+style = "bold yellow"
+
+[rust]
+format = "[$symbol$version]($style) "
+symbol = "🦀 "
+style = "bold red"
+
+[cmd_duration]
+format = "[⏰ $duration]($style) "
+style = "bold magenta"
