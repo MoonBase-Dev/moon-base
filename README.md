@@ -140,13 +140,13 @@ Moon Base transforms the way you configure your terminal prompt. Instead of manu
   <details>
   <summary>📸 Screenshots</summary>
   
-  ![Main Interface](https://via.placeholder.com/800x500/1a1a2e/eee?text=Main+Interface)
+  ![Main Interface](site_res/demo_1.gif)
   *Main editing interface with live preview*
   
-  ![Module Configuration](https://via.placeholder.com/800x500/16213e/eee?text=Module+Configuration)  
+  ![Module Configuration](site_res/demo_2.gif)  
   *Detailed module configuration panel*
   
-  ![Theme Selection](https://via.placeholder.com/800x500/0f3460/eee?text=Theme+Selection)
+  ![Theme Selection](site_res/demo_3.gif)
   *Built-in theme and palette selection*
   
   </details>
@@ -258,42 +258,40 @@ cp ~/Downloads/starship.toml ~/.config/starship.toml
 
 ## 🎨 Themes & Palettes
 
-Moon Base includes carefully curated color palettes:
-
 <table>
   <tr>
     <td align="center">
-      <img src="https://via.placeholder.com/60x20/5e81ac/fff?text=Nord" alt="Nord"><br>
+      <img src="https://img.shields.io/badge/Nord-5e81ac?style=for-the-badge&color=5e81ac" alt="Nord"><br>
       <strong>Nord</strong>
     </td>
     <td align="center">
-      <img src="https://via.placeholder.com/60x20/bd93f9/000?text=Dracula" alt="Dracula"><br>
+      <img src="https://img.shields.io/badge/Dracula-bd93f9?style=for-the-badge&color=bd93f9" alt="Dracula"><br>
       <strong>Dracula</strong>
     </td>
     <td align="center">
-      <img src="https://via.placeholder.com/60x20/7aa2f7/000?text=Tokyo+Night" alt="Tokyo Night"><br>
+      <img src="https://img.shields.io/badge/Tokyo%20Night-7aa2f7?style=for-the-badge&color=7aa2f7" alt="Tokyo Night"><br>
       <strong>Tokyo Night</strong>
     </td>
     <td align="center">
-      <img src="https://via.placeholder.com/60x20/a9b665/000?text=Gruvbox" alt="Gruvbox"><br>
+      <img src="https://img.shields.io/badge/Gruvbox-a9b665?style=for-the-badge&color=a9b665" alt="Gruvbox"><br>
       <strong>Gruvbox</strong>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://via.placeholder.com/60x20/268bd2/fff?text=Solarized" alt="Solarized"><br>
+      <img src="https://img.shields.io/badge/Solarized-268bd2?style=for-the-badge&color=268bd2" alt="Solarized"><br>
       <strong>Solarized</strong>
     </td>
     <td align="center">
-      <img src="https://via.placeholder.com/60x20/f38ba8/000?text=Catppuccin" alt="Catppuccin"><br>
+      <img src="https://img.shields.io/badge/Catppuccin-f38ba8?style=for-the-badge&color=f38ba8" alt="Catppuccin"><br>
       <strong>Catppuccin</strong>
     </td>
     <td align="center">
-      <img src="https://via.placeholder.com/60x20/ff6b6b/fff?text=One+Dark" alt="One Dark"><br>
+      <img src="https://img.shields.io/badge/One%20Dark-ff6b6b?style=for-the-badge&color=ff6b6b" alt="One Dark"><br>
       <strong>One Dark</strong>
     </td>
     <td align="center">
-      <img src="https://via.placeholder.com/60x20/4ade80/000?text=Custom" alt="Custom"><br>
+      <img src="https://img.shields.io/badge/Custom-4ade80?style=for-the-badge&color=4ade80" alt="Custom"><br>
       <strong>Custom</strong>
     </td>
   </tr>
@@ -527,6 +525,17 @@ Special thanks to these amazing projects and communities:
       </a>
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <a href="https://claude.ai">
+        <img src="https://img.shields.io/badge/Claude-Sonnet%204-ff9900?style=for-the-badge&logo=anthropic" width="60" alt="Claude"><br>
+        <strong>Claude AI</strong>
+      </a>
+    </td>
+    <td align="center" colspan="3">
+      <em>Special thanks to Claude AI for assistance with README formatting and documentation improvements! 🤖✨</em>
+    </td>
+  </tr>
 </table>
 
 ### Theme Inspirations
@@ -546,9 +555,9 @@ This project is licensed under the **GPL v3** License - see the [LICENSE](https:
   **Made with ❤️ by the Moon Base team**
   
   <p>
-    <a href="https://github.com/MoonBase-Dev/moon-base">⭐ Star us on GitHub</a> •
-    <a href="https://twitter.com/moonbasedev">🐦 Follow on Twitter</a> •
-    <a href="https://discord.gg/moonbase">💬 Join Discord</a>
+    <a href="https://github.com/MoonBase-Dev/moon-base">⭐ Star us on GitHub</a> • TDOD
+    <a href="https://twitter.com/moonbasedev">🐦 Follow on Twitter</a> • TODO
+    <a href="https://discord.gg/moonbase">💬 Join Discord</a> TODO
   </p>
   
   <sub>Built for the Starship community 🚀</sub>
